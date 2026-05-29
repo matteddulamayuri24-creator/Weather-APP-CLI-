@@ -42,19 +42,19 @@ data = response.json()
 
 if response.status_code == 200:
 
-  main = data["main"]
-  weather = data["weather"][0]
+    main = data["main"]
+    weather = data["weather"][0]
 
-  temperature = main["temp"]  
-  humidity = main["humidity"]  
-  description = weather["description"]
+    temperature = main["temp"]  
+    humidity = main["humidity"]  
+    description = weather["description"]
 
-  print("\nWeather Details")    
-  print("-------------------")    
-  print(f"City: {city}")    
-  print(f"Temperature: {temperature}°C")   
-  print(f"Humidity: {humidity}%")    
-  print(f"Condition: {description}")
+    print("\nWeather Details")    
+    print("-------------------")    
+    print(f"City: {city}")    
+    print(f"Temperature: {temperature}°C")   
+    print(f"Humidity: {humidity}%")    
+    print(f"Condition: {description}")
 else: print("Error:", data["message"])Learning Outcomes
 
 By completing this project, you will learn:
