@@ -20,7 +20,7 @@ Replace your API key in the code:
 
 API_KEY = "YOUR_API_KEY" Run the Project python weather.py Example Output Enter city name: Hyderabad
 
-Weather Details
+  # Weather Details
 
 City: Hyderabad Temperature: 31°C
 
